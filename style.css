@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #e29e60; /* Micro Bit blue */
+  background-image: url(download.webp);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1 {
+color: 000000; /* White */
+font-size: 24px;
+}
+
+h2 {
+color: A9A9A9; /* Light gray */
+font-size: 18px;
+}
+
+p {
+color: A9A9A9; /* Dark gray */
+font-size: 20px;
+}
+
+hr {
+border-top: 1px solid A9A9A9; /* Light gray */
+}
+
+a {
+color: 000000; /* Micro Bit blue */
+text-decoration: none;
+}
+
+a:hover {
+color: 000000; /* White */
+text-decoration: underline;
+}
+
+img {
+  border: 15px solid #A9A9A9;
+  border-style: groove;
+  width: 70%;
+  height: auto;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.text {
+  margin-left: 15px;
+}
+
+.What {
+  width: 300px;
+  border: 15px solid #A9A9A9;
+  padding: 50px;
+  margin: 20px;
+  text-align: center;
+  border-style: groove;
+}
+
+ul {
+  font-weight: bold;
+  color: #000000;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
